@@ -1,0 +1,51 @@
+@import "compass";
+@import "partials/variables";
+@import "partials/normalize";
+@import "partials/mixins";
+@import "partials/base";
+@import "compass/css3";
+
+
+h1 {
+	padding-top: 80px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+.lijst {
+	margin-right: 30px;
+}
+
+#timer {
+	margin-top: 80px;
+	font-size: 60px;
+}
+
+img {
+	width: 70px;
+	height: 70px;
+	position: sticky;
+}
+
+
+#weatherType,
+#windSpeed,
+#cTemp,
+#city {
+  background-color: #93AFC4;
+  background-color: rgba(147, 175, 196, .4);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: .2em .2em .2em #222;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: .5em;
+  min-height: 6em;
+  min-width: 10em;
+  padding-top: 1em;
+  text-shadow: 1px 1px 1px #333333;
+}
+
+
+
+
